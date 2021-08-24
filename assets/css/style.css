@@ -1,0 +1,180 @@
+html, body{
+    height: 100%;
+}
+
+body{
+    overflow-x: hidden;
+}
+html{
+    scroll-behavior: smooth;
+}
+:target{
+    scroll-margin-top: 5rem;
+}
+nav{
+    z-index: 999;
+}
+
+img#foto{
+    width: 337px;
+    height: 337px;
+    border-radius: 50%;
+    filter: drop-shadow(2px 4px 6px black);
+
+
+}
+img.wave-effect{
+    transform: scaleY(-1);
+}
+
+img.mg-photo{
+    margin-left: 233px;
+}
+
+#home{
+    margin-bottom: 10rem;
+}
+.box-img{
+
+    height: 286px;
+}
+
+.cont-home{
+    margin-bottom: 10px;
+}
+
+.txt-home{
+    font-size: 3.5rem;
+    text-align: initial;
+}
+
+.video-y{
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+h2 span.h2-skills{
+    border-bottom: 0.18rem solid #18aa49;
+}
+
+.skills__data{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    font-weight: 400;
+    padding: .5rem 1rem;
+    margin-bottom: 40px;
+    border-radius: .5rem;
+    box-shadow: 0 4px 25px rgba(14,36,49,.15);
+}
+
+.skills__icon{
+    font-size: 2rem;
+    margin-right: 20px;
+    color: green;
+}
+.skills__names{
+    display: flex;
+    align-items: center;
+}
+.skills__bar{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(to right, #18aa49, green);
+    height: .25rem;
+    border-radius: .5rem;
+    z-index: 100;
+}
+
+/*Habilidades tecnicas*/
+.skills__html{
+    width: 80%;
+}
+
+.skills__css{
+    width: 70%;
+}
+
+.skills__js{
+    width: 55%;
+}
+
+.skills__bootstrap{
+    width: 50%;
+}
+
+.skills__java{
+    width: 60%;
+}
+
+.skills__spring_boot{
+    width: 55%;
+}
+
+.skills__poo{
+    width: 80%;
+}
+
+.skills__db{
+    width: 90%;
+}
+
+/*Habilidades comportamentais*/
+.skills__mentalidade{
+    width: 98%;
+}
+
+.skills__orientacao_futuro{
+    width: 97%;
+}
+
+.skills__responsabilidade-pessoal{
+    width: 95%;
+}
+
+.skills__trabalho_equipe{
+    width: 98%;
+}
+
+.skills__proatividade{
+    width: 95%;
+}
+
+.skills__comunicação{
+    width: 75%;
+}
+
+.skills__persistencia{
+    width: 99%;
+}
+.skills__atencao_detalhes{
+    width: 90%;
+}
+
+.input_form_contact{
+    width: 100%;
+    border-radius: 8px;
+    border: solid 1.5px #18aa49;
+    padding: 10px;
+    outline: none;
+    font-weight: bold;
+}
+
+#redes-sociais{
+    font-size: 1.75rem;
+
+}
+
+.hover-none:hover{
+    text-decoration: none;
+
+}
+
+@media (max-width: 780px){
+    img.mg-photo{
+        margin-left: 0;
+    }
+}
